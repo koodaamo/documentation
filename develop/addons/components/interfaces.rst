@@ -258,6 +258,10 @@ Marker interfaces might need to be explicitly declared using the
     The interface dotted name must refer directly to the interface class and
     not to an import from other module, like ``__init__.py``.
 
+.. note::
+
+    In order to show up in the ZMI, the marker interface must be empty: it cannot contain attributes or methods.
+
 Setting dynamic marker interfaces programmatically
 --------------------------------------------------
 
